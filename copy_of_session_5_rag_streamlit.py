@@ -24,6 +24,8 @@ First, let's install the necessary libraries.
 """Next, let's import all required libraries:"""
 
 #pip install streamlit
+import subprocess
+subprocess.run(["pip", "install", "pdfplumber"])
 
 
 import os
